@@ -18,13 +18,13 @@ const HomeScreen = ({ navigation }) => {
 
   useEffect(() => {
     if (status === "idle") {
-      dispatch(fetchPokemons({ page: 1 })); 
+      dispatch(fetchPokemons({ page: 1 }));
     }
   }, [dispatch, status]);
 
   const onRefresh = () => {
-    dispatch(resetPokemons()); 
-    dispatch(fetchPokemons({ page: 1 })); 
+    dispatch(resetPokemons());
+    dispatch(fetchPokemons({ page: 1 }));
   };
 
   const loadMore = () => {
