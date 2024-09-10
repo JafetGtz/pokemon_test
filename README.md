@@ -47,13 +47,13 @@ npm install
 ## Run the project
 
 ```
-npx react-native start
+npm run android
 ```
 
 ```
-npx react-native run-android
+npm run ios
 ```
 
 ```
-npx react-native run-ios
+npm run web
 ```
